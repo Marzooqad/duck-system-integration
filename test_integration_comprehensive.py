@@ -64,8 +64,8 @@ class MockAPIGateway:
         
         # AI Safety Filter
         inappropriate_keywords = [
-            "hurt", "violence", "weapon", "bad word", "hate",
-            "kill", "die", "blood", "fight"
+            "hurt", "violence", "violent", "weapon", "bad word", "hate",
+            "kill", "die", "blood", "fight", "mean"
         ]
         
         if any(word in user_input.lower() for word in inappropriate_keywords):
