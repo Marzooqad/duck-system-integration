@@ -35,7 +35,8 @@ wheels/
 Thumbs.db
 
 # Test outputs
-*.log
+# Note: test_results.log is kept for evidence submission
+# *.log
 .pytest_cache/
 .coverage
 htmlcov/
